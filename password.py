@@ -2,6 +2,7 @@ class password:
     """
     Class that creates new passwords
     """
+    password_list = []
 
 def __init__(self,username,phone_number,password):
     '''
