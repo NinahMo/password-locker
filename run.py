@@ -82,7 +82,7 @@ def main():
         print("enter your username")
         del_info = input()
         del_password = find_user(del_info)
-
+        
         if del_password == del_info:                     
             del_password.delete_password()     
             print('/n')
