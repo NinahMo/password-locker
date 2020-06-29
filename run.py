@@ -78,7 +78,7 @@ def main():
       
       print("Thank you!you have successfully created an acc.")
 
-    elif short_code == 'dc':
+    elif short_code == 'dc':                
         print("enter your username")
         del_info = input()
         del_password = find_user(del_info)
