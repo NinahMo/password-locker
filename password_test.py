@@ -5,7 +5,7 @@ class TestUser(unittest.TestCase):
 
     def setUp(self):
         self.new_password = Password("Ninahmozzy","0712345678","aBcDeF","aBcDeF")
-
+     
     def tearDown(self):
         Password.password_list = []
 

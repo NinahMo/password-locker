@@ -92,13 +92,13 @@ def main():
             print("The above file does not exist")
             print('/n')
         
-    elif short_code == 'fc':
-        print("enter your username")
+    elif short_code == 'fc':     
+        print("enter your username")      
         find_user = input()
         find_password_by_username = find_user(find_user)
 
         if find_password_by_username == find_user:
-            find_user.find_user()
+            find_user.find_user()    
 
 
 if __name__ == '__main__':
