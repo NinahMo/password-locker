@@ -90,7 +90,7 @@ def main():
         else:    
             print('/n')
             print("The above file does not exist")
-            print('/n')
+            print('/n')    
         
     elif short_code == 'fc':      
         print("enter your username")      
