@@ -73,7 +73,7 @@ def main():
 
       print("confirm passsword:")
       pas2 = input()
-
+    
       save_password(create_user(username,number,password,pas2)) 
       
       print("Thank you!you have successfully created an acc.")
@@ -83,11 +83,11 @@ def main():
         del_info = input()
         del_password = find_user(del_info)
 
-        if del_password == del_info:
-            del_password.delete_password()
+        if del_password == del_info:       
+            del_password.delete_password()     
             print('/n')
             print("You have deleted your account")
-        else:
+        else:    
             print('/n')
             print("The above file does not exist")
             print('/n')

@@ -1,6 +1,6 @@
 class User:
     '''
-    '''
+    '''   
     
     # user_list = []
     # def __init__(self,full_name,login_name,email,password):
